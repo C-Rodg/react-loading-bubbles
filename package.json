@@ -1,6 +1,6 @@
 {
 	"name": "react-loading-bubbles",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A loading modal component using React portals.",
 	"main": "dist/index.js",
 	"repository": "https://github.com/C-Rodg/react-loading-bubbles.git",
@@ -17,7 +17,7 @@
 	"author": "<C-Rodg@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
-		"build": "webpack --mode production",
+		"build": "rm -rf ./dist && webpack --mode production",
 		"prepublishOnly": "yarn run build"
 	},
 	"peerDependencies": {
@@ -30,12 +30,12 @@
 		"@babel/preset-env": "^7.5.5",
 		"@babel/preset-react": "^7.0.0",
 		"babel-loader": "^8.0.6",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
 		"webpack": "^4.39.2",
 		"webpack-cli": "^3.3.6"
 	},
 	"dependencies": {
-		"react": "^16.9.0",
-		"react-dom": "^16.9.0",
 		"styled-components": "^4.3.2"
 	}
 }
