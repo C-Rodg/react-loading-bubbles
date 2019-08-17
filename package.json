@@ -1,6 +1,6 @@
 {
 	"name": "react-loading-bubbles",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A loading modal component using React portals.",
 	"main": "dist/index.js",
 	"repository": "https://github.com/C-Rodg/react-loading-bubbles.git",

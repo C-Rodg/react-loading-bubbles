@@ -1,4 +1,8 @@
 module.exports = {
+	output: {
+		filename: 'index.js',
+		libraryTarget: 'commonjs2'
+	},
 	module: {
 		rules: [
 			{
